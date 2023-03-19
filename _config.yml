@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Roshan Sharma"
-  avatar : #"/assets/images/bio-photo.jpg"
+  avatar : "/assets/images/profile.jpg"
   bio    : "Ecologist/data analyst"
   links:
     - label: "Website"

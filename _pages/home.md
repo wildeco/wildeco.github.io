@@ -14,10 +14,10 @@ feature_row:
   - image_path: #/assets/images/mm-customizable-feature.png
     alt: ""
     title: "About me"
-    excerpt: "Ecologist/data analyst"
+    excerpt: "I am a ecologist/data analyst, with a passion for geospatial predictive modelling, econometrics, spatial conservation prioritization, and SDMs. Currently, I am PhD candidate at RMIT University, Melbourne Australia researching on measuring and predicting impact of private protected areas."
     url: "/blog/welcome-to-my-new-website/"
     btn_class: "btn--primary"
-    btn_label: "About me"
+    btn_label: "See more"
   - image_path: #/assets/images/mm-responsive-feature.png
     alt: ""
     title: "My research areas"
