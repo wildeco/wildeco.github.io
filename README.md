@@ -1,5 +1,4 @@
-# This website is built using Jekyll and Minimal Mistakes theme see the below information
-# on how you can set up your own website. 
+# This website is built using Jekyll and Minimal Mistakes theme see the below information on how you can set up your own website. 
 
 # Minimal Mistakes remote theme starter
 
