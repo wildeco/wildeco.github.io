@@ -106,7 +106,8 @@ group <- str_c("https://nswclimaterefugia.net/zip/", group)
 purrr::walk(group, possibly(download_function, print("Error: This species doesn't have data")))
 
 
-####Unzip only the required files
+####Unzip only the required files (There are both thresholded and original SDMs)
+
 zip_path <- dir("data/sdms/", full.names = T, pattern = ".zip$")
 
 extract_threshold_sdms_only <- function(zip) {
