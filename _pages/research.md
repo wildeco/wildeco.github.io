@@ -5,13 +5,6 @@ permalink: /research/
 author_profile: true
 ---
 
-# My research areas
-I work is varied. 
-
-## Some of my work: 
-
-
-
 ## Spatial Conservation Prioritization
 
 Spatial conservation prioritization is a field of study and practice that focuses on identifying the most important areas for conservation in a given region or ecosystem. The goal of spatial conservation prioritization is to maximize conservation outcomes by targeting areas that are most critical for protecting biodiversity and ecosystem services, while also taking into account factors such as ecological connectivity, land use, and human activities.
