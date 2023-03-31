@@ -9,6 +9,9 @@ tags:
   - biodiversity
 ---
 
+![](https://images.pexels.com/photos/1319504/pexels-photo-1319504.jpeg)
+[Photo](https://images.pexels.com/photos/1319504/pexels-photo-1319504.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) by [Magda Ehlers](https://www.pexels.com/@magda-ehlers-pexels/) from Pexels
+
 ## Introduction
 
 Human-wildlife conflict has become an increasingly pressing issue in today's world as the human population continues to expand and encroach on natural habitats. The conflicts that arise from this interaction between humans and wildlife can have detrimental effects on both parties involved. Leopard-human conflict is a specific type of human-wildlife conflict that has become a significant issue in many parts of the world. Leopards are highly adaptable animals that can thrive in a variety of habitats, including forests, grasslands, and even urban areas. As such, they often come into contact with humans, which can lead to conflict. 
