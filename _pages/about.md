@@ -3,4 +3,4 @@ permalink: /about/
 title: "About"
 ---
 
-Site in progress
+![](https://www.mememaker.net/static/images/memes/4849290.jpg)

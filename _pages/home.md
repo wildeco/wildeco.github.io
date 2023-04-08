@@ -15,7 +15,7 @@ feature_row:
     alt: ""
     title: "About me"
     excerpt: "I am a quantitative ecologist/data analyst, with a passion for geospatial predictive modelling, econometrics, spatial conservation prioritization, and SDMs. Close to submitting a PhD in Conservation Science at RMIT University, Melbourne Australia - researching on measuring and predicting impact of private protected areas."
-    url: "/blog/welcome-to-my-new-website/"
+    url: "/about/"
     btn_class: "btn--primary"
     btn_label: "See more"
   - image_path: #/assets/images/mm-responsive-feature.png
@@ -29,7 +29,7 @@ feature_row:
     alt: ""
     title: "See the latest blog posts"
     excerpt: "See the posts I have written about my research, data science, and other topics."
-    url: "/blog/projects"
+    url: "/posts/"
     btn_class: "btn--primary"
     btn_label: "See here"      
 ---
