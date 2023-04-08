@@ -28,7 +28,7 @@ feature_row:
   - image_path: #/assets/images/home_research.jpg
     alt: ""
     title: "See the latest blog posts"
-    excerpt: "R and Python code"
+    excerpt: "See the posts I have written about my research, data science, and other topics."
     url: "/blog/projects"
     btn_class: "btn--primary"
     btn_label: "See here"      

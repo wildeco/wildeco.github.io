@@ -5,5 +5,7 @@ main:
     url: /research/
   - title: "Journal Articles"
     url: /articles/
+  - title: "Photography"
+    url: /photography/ 
   - title: "Contact"
     url: /contact/
