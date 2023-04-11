@@ -18,7 +18,7 @@ In this blog post, I will demonstrate how to use [inlabru](https://sites.google.
 
 We will model the response using a log-Gaussian Cox process (LGCP). A log-Gaussian Cox process is a type of stochastic model used to analyze spatial point patterns. It is a special case of a Cox process, which is a type of point process that models the intensity of points as a function of covariates. In a log-Gaussian Cox process, the intensity of the point process is assumed to be log-normally distributed, which allows for the incorporation of spatially dependent random effects.
 
-The log-Gaussian Cox process is commonly used in environmental and ecological applications, such as modeling the spatial distribution of wildfire occurrences, disease outbreaks, or species distributions. It has the advantage of allowing for the modeling of complex spatial patterns, as well as the incorporation of spatially-dependent covariates and random effects. Mathematically, the log-Gaussian Cox process is defined as:
+The log-Gaussian Cox process is commonly used in environmental and ecological applications, such as modeling the spatial distribution of wildfire occurrences, disease outbreaks, or species distributions. It has the advantage of allowing for the modeling of complex spatial patterns, as well as the incorporation of spatially-dependent covariates and random effects. Mathematically, the log-Gaussian Cox process is defined as: 
 
         λ(x) = exp(β₀ + β₁x₁ + ... + βₚxₚ + Z(x))
 
@@ -28,7 +28,7 @@ Additionally, the log-Gaussian Cox model is able to account for overdispersion i
 
 INLA depends upon objects of class defined by sp package; which is a package for spatial data but is retiring soon. INLA has not been updated to work with the new sf and terra packages. Hopefully, we will see an update soon. 
 
-Since we need sp objects to model, it is important to understand the structure of the sp objects, mainly they are: 
+Since we need sp objects to model, it is also important to understand the structure of the sp objects, mainly they are: 
 
 * SpatialPointsDataFrame: a data frame with a spatial component. The spatial component is a SpatialPoints object, which is a list of coordinates. The coordinates are stored in a matrix with two columns, one for the x-coordinate and one for the y-coordinate.
 * SpatialPixelsDataFrame, which is a data frame with a spatial component (it's a raster equivalent of terra).
