@@ -1,5 +1,5 @@
 ---
-title: "Installing NVIDIA drivers in Ubuntu 22.04.2 LTS"
+title: "Installing NVIDIA drivers (+ CUDA toolkits) in Ubuntu 22.04.2 LTS"
 date: 2023-04-12T15:34:30-04:00
 categories:
   - blog
@@ -7,7 +7,7 @@ tags:
   - linux NVIDIA drivers
   - Errors were encountered while processing
 ---
-# Installing NVIDIA drivers in debian based systems (e.g., in my case Ubuntu 22.04.2 LTS)
+# Installing NVIDIA drivers  (+ CUDA toolkits) in debian based systems (e.g., in my case Ubuntu 22.04.2 LTS)
 
 ![](https://images.unsplash.com/photo-1555618254-84e2cf498b01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80)
 
@@ -203,6 +203,69 @@ The output will show something like this:
 |    0   N/A  N/A      1924      G   /usr/lib/xorg/Xorg                  4MiB |
 +-----------------------------------------------------------------------------+
 ```
+
+**Once you set up the NVIDIA drivers, you can install CUDA Toolkit**
+
+You can visit the [official website  to download the CUDA Toolkit](https://developer.nvidia.com/cuda-downloads) 
+
+I select OS as Linux, Architecture as x86_64, and Distribution as Ubuntu, and version 22.04. I use the Installer Type: deb(local) 
+
+```
+wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-ubuntu2204.pin
+sudo mv cuda-ubuntu2204.pin /etc/apt/preferences.d/cuda-repository-pin-600
+wget https://developer.download.nvidia.com/compute/cuda/12.1.0/local_installers/cuda-repo-ubuntu2204-12-1-local_12.1.0-530.30.02-1_amd64.deb
+sudo dpkg -i cuda-repo-ubuntu2204-12-1-local_12.1.0-530.30.02-1_amd64.deb
+sudo cp /var/cuda-repo-ubuntu2204-12-1-local/cuda-*-keyring.gpg /usr/share/keyrings/
+sudo apt-get update
+sudo apt-get -y install cuda
+```
+
+You can check if the CUDA Toolkit is installed correctly by running the following command:
+
+```
+nvidia-smi
+```
+You can see that both the NVIDIA drivers (also it has updated the driver from 525 to 530) and CUDA Toolkit (v12.1) are installed correctly. 
+
+```
++---------------------------------------------------------------------------------------+
+| NVIDIA-SMI 530.30.02              Driver Version: 530.30.02    CUDA Version: 12.1     |
+|-----------------------------------------+----------------------+----------------------+
+| GPU  Name                  Persistence-M| Bus-Id        Disp.A | Volatile Uncorr. ECC |
+| Fan  Temp  Perf            Pwr:Usage/Cap|         Memory-Usage | GPU-Util  Compute M. |
+|                                         |                      |               MIG M. |
+|=========================================+======================+======================|
+|   0  NVIDIA GeForce MX150            On | 00000000:01:00.0 Off |                  N/A |
+| N/A   46C    P8               N/A /  N/A|      4MiB /  2048MiB |      0%      Default |
+|                                         |                      |                  N/A |
++-----------------------------------------+----------------------+----------------------+
+                                                                                         
++---------------------------------------------------------------------------------------+
+| Processes:                                                                            |
+|  GPU   GI   CI        PID   Type   Process name                            GPU Memory |
+|        ID   ID                                                             Usage      |
+|=======================================================================================|
+|    0   N/A  N/A      1917      G   /usr/lib/xorg/Xorg                            4MiB |
++---------------------------------------------------------------------------------------+
+```
+
+Bonus tip: did you know about this app called `nvtop`? It is a command-line utility that shows the GPU usage in real-time. It is very useful for monitoring the GPU usage. If not try it out
+
+```
+sudo apt install nvtop
+```
+
+Run it in your shell using the following command:
+
+```
+nvtop
+```
+
+![](https://lh3.googleusercontent.com/drive-viewer/AAOQEORxzzaoJFHFooCMPtncfMGkXeOEaeHyUImAsfUeQ5rOVDUJ0EDUJ4q1fl15WX8Bhs3fvowRQKToq-_jN-Nhz2rxDeaA=s1600)  
+
+Congratulations, if both NVIDIA drivers and CUDA Toolkit are installed correctly, you can start using your GPU for deep learning. 
+
+Sometimes you just have a bad day, and your installations are not working. And you are loosing that patience to try out some cool deep learning stuff to vent out all that frustation. Then go try the [Google Colab](https://colab.research.google.com/) . It is a free Jupyter notebook environment that requires no setup and runs entirely in the cloud (and try their free GPUs). It is a great tool for learning and prototyping deep learning models. 
 
 I hope the blog is useful to you. If you have any questions, please feel free to ask. I will try to answer them as soon as possible.
 
