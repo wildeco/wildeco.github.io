@@ -9,7 +9,9 @@ tags:
 ---
 # Installing NVIDIA drivers in debian based systems (e.g., in my case Ubuntu 22.04.2 LTS)
 
-Machine learning, especially deep learning requires a lot of computational power. Tensorflow can greatly improve in performance when run under CUDA enabled systems. If you are using a laptop, you might have an integrated graphics card (Intel) and a discrete graphics card (NVIDIA). If you are using cloud frameworks like AWS, you will have access to a range of NVIDIA GPUs, depending upon your need. However, AWS instances build from scratch will usually not have the NVIDIA drivers installed, and you have to do that yourself (which can be a bit of hassle). 
+![](https://images.unsplash.com/photo-1555618254-84e2cf498b01?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80)
+
+Machine learning, especially deep learning requires a lot of computational power. Tensorflow an open-source software can greatly improve computation as it can utilise the GPU under the NVIDIA-CUDA enabled systems. If you are using a laptop, you might have an integrated graphics card (Intel) and a discrete graphics card (e.g., NVIDIA). Updating your system may require you to also update the new drivers for your GPUs. If you use cloud frameworks like AWS, you will have access to a range of powerful NVIDIA GPUs. However, AWS instances built from scratch will usually not have the NVIDIA drivers installed, and you have to do that yourself (which can be a bit of hassle). 
 
 There are lots of tutorials on the web, here I will show you the way that worked for me. Maybe it will work for you too. 
 
