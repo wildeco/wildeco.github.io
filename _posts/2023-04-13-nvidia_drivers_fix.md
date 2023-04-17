@@ -1,5 +1,5 @@
 ---
-title: "# Installing NVIDIA drivers  (+ CUDA toolkits) in debian based systems (e.g., in my case Ubuntu 22.04.2 LTS)"
+title: "Installing NVIDIA drivers  (+ CUDA toolkits) in debian based systems (e.g., in my case Ubuntu 22.04.2 LTS)"
 date: 2023-04-12T15:34:30-04:00
 categories:
   - blog
