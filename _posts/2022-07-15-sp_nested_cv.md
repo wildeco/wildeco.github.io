@@ -1,5 +1,5 @@
 ---
-title: "You should always used spatial nested cross-validation"
+title: "You should use spatial nested cross-validation"
 date: 2022-07-15T20:12:15-18:00
 categories:
   - blog
@@ -42,7 +42,7 @@ Cross-validation is the simplest and the most widely used method for **evaluatin
 
 Using the same cross-validation technique for both model selection and hyperparameter tuning can lead to overfitting. This is because the model is trained and tested on the same data. So, the model will perform well on the test set, but not on new data. We also need a validation set.  
 
-##**Here comes the nested-cross validation to the rescue**##
+##Here comes the nested-cross validation to the rescue##
 
 ![](https://i.imgflip.com/7io7pg.jpg)
 
