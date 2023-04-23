@@ -5,7 +5,7 @@ permalink: /photography/
 author_profile: true
 ---
 
-I enjoy occasional photography, mostly on nature and streets. I have been using my iphone 11 pro max for most of my photography. I had a Canon 7D DSLR camera for a while, but no longer - but I think I should get a good cam soon. I have uploaded some of my photos on [Pexels](https://www.pexels.com/@roshan-sharma-517632505/), a free stock photo website. I will need to find the old photos from my DSLR and upload them here, hopefully soon. 
+I enjoy occasional photography, mostly on nature, people and streets. I have been using my iphone 11 pro max for most of my photography. I had a Canon 7D DSLR camera for a while, but no longer - but I think I should get a good DSLR soon. I have uploaded some of my photos on [Pexels](https://www.pexels.com/@roshan-sharma-517632505/), a free stock photo website. I will need to find the old photos from my DSLR and upload them here, hopefully soon. 
 
 Here are some of them: 
 
