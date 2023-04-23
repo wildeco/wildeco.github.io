@@ -19,13 +19,10 @@ Before we understand spatial nested-cross validation we should revise briefly ab
 The bias-variance tradeoff is a fundamental concept in machine learning that deals with finding a balance between model complexity and accuracy. Model with high complexity is more likely to overfit the data (low bias, high variance), whereas a model with low complexity is more likely to underfit the data (high bias, low variance). Since the **goal of machine learning is to find a model that can generalise well to new data**, finding the optimal balance between bias and variance is essential (e.g., the dotted line in the figure below).  
 
  <img
-  src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Bias_and_variance_contributing_to_total_error.svg/2560px-Bias_and_variance_contributing_to_total_error.svg.png"
+  src="https://cdn-images-1.medium.com/max/800/0*ml9CpRkTA8fY9AFT.png"
   width="500">
 
 img source: Wikimedia commons
-
-
-
 **How do we find that balance in bias and variance ?**
 
 We **tune the hyperparameters** of the model to avoid both under and over fitting. Hyperparameters are the parameters that are not learned from the data (in contrary to model parameters that are learnt from the data), but are set by the user. For example, the number of trees in a random forest model or the number of neurons in deep learning models. So tuning the hyperparameters involves finding the optimal values for these parameters. Remember, the objective is to find the optimal model parameter that enables the model to have a broader range of generalisation. 

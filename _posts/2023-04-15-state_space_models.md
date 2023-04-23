@@ -22,11 +22,11 @@ If we consider, $y$: observed response variable and $X$: hidden state, then the 
 
 ## Process model ##
 
-The actual response at time $t+1$ is a function of the actual response at time $t$, plus some error.
+The actual response at time $t+1$ is a function of the actual response at time $t$ plus some error.
 
-$X_{t+1} = f(X_t) + \epsilon_t$
+$$X_{t+1} = f(X_t) + \epsilon_t$$
 
-$X_{t+1} = b_0 + b_1 X_t + \epsilon_t$ $\;\;\;\;\;$ $\epsilon_t$ ~ $N(0, \sigma^2)$
+$$X_{t+1} = b_0 + b_1 X_t + \epsilon_t \;\;\;\;\; \epsilon_t ~ N(0, \sigma^2)$$
 
 ## Observation model ##
 The observed response variable $y_t$ is a function of the hidden state and some error. 
