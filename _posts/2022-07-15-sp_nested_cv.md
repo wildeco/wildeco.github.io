@@ -23,6 +23,7 @@ The bias-variance tradeoff is a fundamental concept in machine learning that dea
   width="500">
 
 img source: Wikimedia commons
+
 **How do we find that balance in bias and variance ?**
 
 We **tune the hyperparameters** of the model to avoid both under and over fitting. Hyperparameters are the parameters that are not learned from the data (in contrary to model parameters that are learnt from the data), but are set by the user. For example, the number of trees in a random forest model or the number of neurons in deep learning models. So tuning the hyperparameters involves finding the optimal values for these parameters. Remember, the objective is to find the optimal model parameter that enables the model to have a broader range of generalisation. 
