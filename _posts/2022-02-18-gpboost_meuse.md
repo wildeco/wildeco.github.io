@@ -34,7 +34,6 @@ data(list = c("meuse","meuse.riv","meuse.grid"))
 
 # convert meuse data to sf objects
 meuse <- meuse |> st_as_sf(coords = c("x","y"))
-
 # create river polygon from riv points for plotting
 river <- meuse.riv |> as.data.frame() |>
   st_as_sf(coords = c("V1", "V2")) |> st_combine() |>

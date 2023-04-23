@@ -7,7 +7,7 @@ author_profile: true
 
 ![](https://images.unsplash.com/photo-1611782712936-6247d9711816?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)
 
-Below are the list of some of some peer-reviewed publications that I think are more relevant to my current research interests. I have also included a link to the preprint version of the paper, if available. If you have any research questions, or interests to collaborate on a publication, please feel free to contact me.
+Below are the list of some peer-reviewed publications that I think are more relevant to my current research interests. I have also included a link to the preprint version of the paper, if available. If you have any research questions, or interests to collaborate on a publication, please feel free to contact me.
 
 ---
 
