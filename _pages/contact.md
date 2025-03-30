@@ -9,5 +9,5 @@ author_profile: true
 
 I am always happy to hear from you, any comments, suggestions. 
 
-You can contact me via email at [roseanstore@hotmail.com](mailto:roseanstore@hotmail.com) or via [Twitter](https://twitter.com/geoconR).
+You can contact me. 
 
